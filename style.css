@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(104, 101, 101, 0.925);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: fantasy;
+    font-size: 15;
+
+}
+
+header {
+    background-color: rgb(68, 67, 67);
+}
+
+.controle {
+    width: 100px;
+    margin: 10px 15px;
+
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+
+
+}
+
+nav {
+    text-align: right;
+    margin: 5px 25px;
+    color: white;
+}
+
+
+li {
+    display: inline;
+    padding-left: 10px;
+    font-size: 20px;
+
+}
+
+.colormenu {
+    color: white;
+    text-decoration: none;
+}
+
+.jogos {
+    margin-bottom: 350px;
+    margin-left: 10px;
+    margin-top: 15px;
+    word-spacing: 10px;
+
+
+
+}
+
+.sobre {
+    margin-bottom: 400px;
+    margin-left: 10px;
+    word-spacing: 10px;
+
+}
+
+.maintext {
+    color: white;
+    font-size: 20px;
+}
+
+
+.contatos {
+    padding-bottom: 25px;
+    margin-left: 10px;
+}
+
+.linkcontact {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: azure;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
